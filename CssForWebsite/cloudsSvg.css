@@ -22,7 +22,7 @@ body {
   }
   
   .cloud2 {
-      top: 240px;
+    top: 240px;
     z-index: 200;
     fill: #eee;
     -webkit-animation: move 35s linear 10s infinite backwards;
@@ -33,13 +33,13 @@ body {
   }
   .cloud3 {
     top: 240px;
-  z-index: 200;
-  fill: #eee;
-  -webkit-animation: move 40s linear 10s infinite backwards;
-  -moz-animation: move 40s linear 10s infinite backwards;
-  -o-animation: move 40s linear 10s infinite backwards;
-  animation: move 40s linear 10s infinite backwards;
-  opacity: 0.2;
+    z-index: 200;
+    fill: #eee;
+    -webkit-animation: move 50s linear 20s infinite backwards;
+    -moz-animation: move 45s linear 20s infinite backwards;
+    -o-animation: move 50s linear 20s infinite backwards;
+    animation: move 50s linear 20s infinite backwards;
+    opacity: 0.2;
 }
   
 @keyframes move {
