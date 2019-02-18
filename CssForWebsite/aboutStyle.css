@@ -117,18 +117,18 @@ body{
         word-wrap: break-word;
    }
    .textBody2{ 
-    word-wrap: break-word;
+        word-wrap: break-word;
 }
     body{ 
-    word-wrap: break-word;
+        word-wrap: break-word;
 }
     .blink{ 
-    word-wrap: break-word;
+        word-wrap: break-word;
 }
-.popup{
-    word-wrap: break-word;  
-    size: 2em;
-    margin:2%;
+    .popup{
+        word-wrap: break-word;  
+        size: 2em;
+        margin:2%;
 } 
 }
 @media screen and (max-width:760px){
