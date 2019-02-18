@@ -4,66 +4,67 @@ body{
 }
 
 .cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  background-color: black;
+
+}
+
+.card {
+  color:whitesmoke;
+  flex: 0 0 200px;
+  margin: 6px;
+  border: 1px solid #ccc;
+} 
+
+.card img {
+  max-width: 100%;
+}
+
+.card .text {
+  padding: 0 3px 3px;
+}
+
+.card .text > button {
+  background:black;
+  border: 0;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
+
+.zoom {
+  background-color: transparent;
+  transition: transform .2s; 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+  
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+@media screen and (max-width:auto) {
+  .cards{ 
     display: flex;
+    flex-grow: 1;
     flex-wrap: wrap;
-    align-items: stretch;
-    background-color: black;
-
+    position: fixed;
+    align-content:center; 
+    align-items: center;
   }
-
-  .card {
-    color:whitesmoke;
-    flex: 0 0 200px;
-    margin: 6px;
-    border: 1px solid #ccc;
-    /*box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);*/
-  } 
-
-  .card img {
-    max-width: 100%;
+  
+  .card{
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-content:center; 
+    align-items: center;
+    position: fixed;
+    max-width: 160%;
+    right: 10%;
+    top: 0;
   }
-
-  .card .text {
-    padding: 0 3px 3px;
-  }
-
-  .card .text > button {
-    background:black;
-    border: 0;
-    color: white;
-    padding: 10px;
-    width: 100%;
-    }
-
-    .zoom {
-      background-color: transparent;
-      transition: transform .2s; 
-      width: 200px;
-      height: 200px;
-      margin: 0 auto;
-    }
-    
-    .zoom:hover {
-      transform: scale(1.5); 
-    }
-    @media screen and (max-width:auto) {
-      .cards{ 
-      display: flex;
-      flex-wrap: wrap;
-      position: relative;
-      align-content:center; 
-      align-items: center;
-     }
-     
-      .card{
-        display: flex;
-        flex-grow: 1;
-        flex-wrap: wrap;
-        align-content:center; 
-        align-items: center;
-        position: absolute;
-        max-width: 160%;
-        right: 10%;
-        top: 0;
-      }
-    }
+}
