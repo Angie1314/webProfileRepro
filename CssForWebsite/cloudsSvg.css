@@ -13,7 +13,7 @@ body {
   .cloud1 {
       top: 80px;
     z-index: 100;
-    fill: #eee;
+    fill:ghostwhite;
     -webkit-animation: move 20s linear infinite;
     -moz-animation: move 20s linear infinite;
     -o-animation: move 20s linear infinite;
@@ -24,7 +24,7 @@ body {
   .cloud2 {
     top: 240px;
     z-index: 200;
-    fill: #eee;
+    fill: ghostwhite;
     -webkit-animation: move 35s linear 10s infinite backwards;
     -moz-animation: move 35s linear 10s infinite backwards;
     -o-animation: move 35s linear 10s infinite backwards;
@@ -34,7 +34,7 @@ body {
   .cloud3 {
     top: 240px;
     z-index: 200;
-    fill: #eee;
+    fill:ghostwhite;
     -webkit-animation: move 50s linear 20s infinite backwards;
     -moz-animation: move 45s linear 20s infinite backwards;
     -o-animation: move 50s linear 20s infinite backwards;
